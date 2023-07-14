@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWIN Test Task</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header Starts -->
+      <header class="d-flex flex-wrap justify-content-between p-3 border-bottom" id="header-start">
+          <a href="https://www.awin.com/us" class="d-flex align-items-center mb-3 ml-3 mb-md-0 me-md-auto" title="Return to the Awin hompage">
+          <img src="https://www.awin.com/images/logo-awin-black.svg" alt="Return to the Awin homepage" width="178" height="80">
+          </a>
+          <nav class="mr-3">
+            <div class="d-flex justify-content-end">
+              <span class="mr-3 p-1">
+                <img class="rounded" src="https://res.cloudinary.com/awin/image/upload/q_auto,f_auto/v1509030065/awin-website/flags/image/i85hhwukhlzaeadmu4gb.png" alt="US" height="24">
+              </span>
+              <button type="button" class="btn btn-outline-secondary mx-2">Sign up</button>
+              <button type="button" class="btn btn-outline-secondary mx-2">Log in</button>
+              <button type="button" class="btn btn-outline-secondary mx-2">Accessibility Tools</button>
+            </div>
+            <ul class="nav mt-3">
+              <li class="nav-item"><a href="#" class="nav-link hover-color-1">Advertisers</a></li>
+              <li class="nav-item"><a href="#" class="nav-link hover-color-2">Publishers</a></li>
+              <li class="nav-item"><a href="#" class="nav-link hover-color-3">Market Insights</a></li>
+              <li class="nav-item"><a href="#" class="nav-link hover-color-4">News and Events</a></li>
+              <li class="nav-item"><a href="#" class="nav-link hover-color-5">Contact</a></li>
+              <li class="nav-item"><a href="#" class="nav-link hover-color-6">About Us</a></li>
+            </ul>
+          </nav>
+      </header>
+      <main class="flex-auto">
+      <!-- Hero Starts-->
+      <div class="p-5 bg-image">
+        <div>
+          <div class="hero-center d-flex justify-content-start align-items-center h-100">
+            <div class="hero-text col-lg-5">
+              <h1 class="hero-title">Your Q2 Report</h1>
+              <p class="hero-paragraph">Explore your results on various platforms and learn how to strengthen your presence in affiliate marketing</p>
+              <a class="btn btn-light btn-lg" href="#stats" role="button">See stats</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JS Graph 1 Start-->
+       <div class="container px-4 py-5">
+          <h2 class="pb-2" id="stats">Q2 overall revenue per channel</h2>
+
+          <div id="chart-wrap">
+                      <figure class="highcharts-figure">
+                          <div id="container-1"></div>
+                          <p class="highcharts-description">
+                             Here are your stats for the second quarter of 2023 across all social media platforms you've been advertising on.
+                          </p>
+                          <label id="patterns-enabled-label">
+                            <input type="checkbox" id="patterns-enabled" checked>
+                            Enable color patterns
+                          </label>
+                      </figure>
+                  </div>
+            </div>
+
+              <!-- JS Graph 2 Start-->
+           <div class="container px-4 py-5">
+              <h2 class="pb-2" id="stats">Annual revenue over time</h2>
+              <figure class="highcharts-figure">
+                  <div id="container-2"></div>
+                  <p class="highcharts-description">
+                      Keep track of your annual revenue with our internal tools.
+                  </p>
+              </figure>
+          </div>
+
+      <!-- Cards -->
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2">Read more about influencer marketing</h2>
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+
+          <!-- Card 1 -->
+            <div class="col m-3">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg mt-3" style="background-image: url('img/card1.jpeg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tools for analytics</h2>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="img/awin-logo.png" alt="AWIN" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>Berlin</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      <small>3d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col m-3">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg mt-3" style="background-image: url('img/card2.jpeg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tik Tok's new hints</h2>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="img/awin-logo.png" alt="AWIN" width="32" height="32" class="rounded-circle border border-white color-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>Berlin</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      <small>4d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col m-3">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg mt-3" style="background-image: url('img/card3.jpeg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Instargam Threads</h2>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <img src="img/awin-logo.png" alt="AWIN" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                      <small>Berlin</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                      <small>5d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <!-- Footer Starts-->
+          <footer class="footer row row-cols-5 py-5">
+            <div class="col">
+              <a href="/" class="d-flex justify-content-start align-items-center ml-5 mt-3 link-dark text-decoration-none">
+                <img src="img/awin-white-logo.svg" alt="AWIN" class="bi me-2" width="100px">
+              </a>
+            </div>
+
+            <div class="col">
+            </div>
+
+            <div class="col mr-5">
+              <div class="d-flex justify-content-end mb-3">
+                <a class="back-to-start" href="#header-start">
+                <button type="button" class="btn btn-outline-light mx-2">Back to top 
+                <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/chevron-up.png"/>
+                </a>
+                </button>
+              </div>
+              <ul class="nav flex-row justify-content-end">
+                <li class="nav-item mb-2"><a href="#" class="nav-link text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link text-muted">About</a></li>
+              </ul>
+            </div>
+            
+          </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- HighCharts JS -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/pattern-fill.js"></script>
+    <script src="https://code.highcharts.com/themes/high-contrast-light.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
