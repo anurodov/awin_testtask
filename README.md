@@ -4,4 +4,4 @@
 
 Here's a fullscreen preview on a medium screen, the layout should be responsive.
 
-![screencapture-file-Users-tb-Desktop-AWIN-test-task-index-html-2023-07-14-15_20_16](https://github.com/anurodov/awin_testtask/assets/25494321/0e385669-52a9-4f84-9b0d-8d6616078a5b)
+![screencapture-anurodov-github-io-awin-testtask-2023-07-14-15_26_18](https://github.com/anurodov/awin_testtask/assets/25494321/a14fe8ca-8056-4fd0-99f3-e3a27ed15b9e)
